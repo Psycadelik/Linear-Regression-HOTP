@@ -6,12 +6,14 @@ cd ~/personal/linear_regression || exit 1
 chmod +x generate_csv.py
 
 # generate csv file
-houses.csv << ./generate_csv.py || exit 1
+houses_data.csv=./generate_csv.py || exit 1
 
 chmod +x regression_model.py
 
 # Run the regression model with the above  csv file as argument
-./regression_model.py --csv_file "$houses.csv" || exit 1
+./regression_model.py --csv_file "$houses_data.csv" || exit 1
+
+
 
 
 
