@@ -6,3 +6,7 @@ A step by step approach to predicting house costs depending on the size of the h
 - run `./run-script.sh` to plot the necessary graphs 
 - Visualize the Hypothesis and cost function
 - Parameterized learning and finally analyze our result set
+
+# Visualize Area vs House cost graph
+![fig1-area-vs-cost](https://github.com/Psycadelik/Linear-Regression-HOTP/blob/master/assets/Figure1-area-and-prices.png)
+
